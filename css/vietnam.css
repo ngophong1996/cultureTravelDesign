@@ -8,6 +8,21 @@ body {
     font-weight: 300;
     overflow-x: hidden;
 }
+.form-group {
+    margin-bottom: 15px;
+}
+.row {
+    margin-left: -15px;
+    margin-right: -15px;
+}
+a {
+    color: #FFCC00 ;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+    text-decoration: none;
+    background-color: transparent;
+}
 h1, h2, h3, h4, h5, h6 {
 	color: #212121;
 	font-family: "Roboto Slab", Arial, sans-serif;
@@ -24,145 +39,131 @@ p, ul, ol {
 #footer {
     width: 100%;
     float: left;
-    background: #222831;
+    background: #292929;
     padding: 7em 0 40px;
   }
-  #footer p {
+#footer p {
     color: rgba(255, 255, 255, 0.3);
   }
-  #footer .section-title {
+#footer .section-title {
     color: rgba(255, 255, 255, 0.8);
     font-weight: 400;
     font-size: 18px;
     letter-spacing: 1px;
   }
-  #footer .float {
+#footer .float {
     float: left;
     margin-right: 10%;
   }
-  #footer ul {
+#footer ul {
     padding: 0;
     margin: 0;
   }
-  #footer ul li {
+#footer ul li {
     padding: 0;
     margin: 0 0 10px 0;
     list-style: none;
     color: rgba(255, 255, 255, 0.3);
   }
-  #footer ul li a {
+#footer ul li a {
     color: rgba(255, 255, 255, 0.5);
     text-decoration: none !important;
   }
-  #footer ul li a:hover {
+#footer ul li a:hover {
     color: #fff;
   }
-  #footer .contact-info {
+#footer .contact-info {
     margin: 0 0 60px 0;
     padding: 0;
   }
-  #footer .contact-info li {
+#footer .contact-info li {
     list-style: none;
     margin: 0 0 20px 0;
     position: relative;
     padding-left: 40px;
   }
-  #footer .contact-info li i {
+#footer .contact-info li i {
     position: absolute;
     top: 5px;
     left: 0;
     font-size: 22px;
     color: rgba(255, 255, 255, 0.7);
   }
-  #footer .contact-info li a {
+#footer .contact-info li a {
     color: rgba(255, 255, 255, 0.5);
   }
-  #footer .contact-form .form-group input[type="name"],
-  #footer .contact-form .form-group input[type="text"],
-  #footer .contact-form .form-group input[type="email"],
-  #footer .contact-form .form-group textarea {
+#footer .contact-form .form-group input[type="name"],
+#footer .contact-form .form-group input[type="text"],
+#footer .contact-form .form-group input[type="email"],
+#footer .contact-form .form-group textarea {
     font-size: 16px;
   }
-  #footer .contact-form .form-group input[type="name"]::-webkit-input-placeholder,
-  #footer .contact-form .form-group input[type="text"]::-webkit-input-placeholder,
-  #footer .contact-form .form-group input[type="email"]::-webkit-input-placeholder,
-  #footer .contact-form .form-group textarea::-webkit-input-placeholder {
+#footer .contact-form .form-group input[type="name"]::-webkit-input-placeholder,
+#footer .contact-form .form-group input[type="text"]::-webkit-input-placeholder,
+#footer .contact-form .form-group input[type="email"]::-webkit-input-placeholder,
+#footer .contact-form .form-group textarea::-webkit-input-placeholder {
     color: rgba(255, 255, 255, 0.5);
   }
-  #footer .contact-form .form-group input[type="name"]:-moz-placeholder,
-  #footer .contact-form .form-group input[type="text"]:-moz-placeholder,
-  #footer .contact-form .form-group input[type="email"]:-moz-placeholder,
-  #footer .contact-form .form-group textarea:-moz-placeholder {
+#footer .contact-form .form-group input[type="name"]:-moz-placeholder,
+#footer .contact-form .form-group input[type="text"]:-moz-placeholder,
+#footer .contact-form .form-group input[type="email"]:-moz-placeholder,
+#footer .contact-form .form-group textarea:-moz-placeholder {
     /* Firefox 18- */
     color: rgba(255, 255, 255, 0.5);
   }
-  #footer .contact-form .form-group input[type="name"]::-moz-placeholder,
-  #footer .contact-form .form-group input[type="text"]::-moz-placeholder,
-  #footer .contact-form .form-group input[type="email"]::-moz-placeholder,
-  #footer .contact-form .form-group textarea::-moz-placeholder {
+#footer .contact-form .form-group input[type="name"]::-moz-placeholder,
+#footer .contact-form .form-group input[type="text"]::-moz-placeholder,
+#footer .contact-form .form-group input[type="email"]::-moz-placeholder,
+#footer .contact-form .form-group textarea::-moz-placeholder {
     /* Firefox 19+ */
     color: rgba(255, 255, 255, 0.5);
   }
-  #footer .contact-form .form-group input[type="name"]:-ms-input-placeholder,
-  #footer .contact-form .form-group input[type="text"]:-ms-input-placeholder,
-  #footer .contact-form .form-group input[type="email"]:-ms-input-placeholder,
-  #footer .contact-form .form-group textarea:-ms-input-placeholder {
+#footer .contact-form .form-group input[type="name"]:-ms-input-placeholder,
+#footer .contact-form .form-group input[type="text"]:-ms-input-placeholder,
+#footer .contact-form .form-group input[type="email"]:-ms-input-placeholder,
+#footer .contact-form .form-group textarea:-ms-input-placeholder {
     color: rgba(255, 255, 255, 0.5);
   }
-  #footer .contact-form .form-group input {
-    color: rgba(255, 255, 255, 0.5);
-    background: transparent;
-    border: none;
-    background: rgba(0, 0, 0, 0.2);
-    box-shadow: none;
-  }
-  #footer .contact-form .form-group textarea {
+#footer .contact-form .form-group input {
     color: rgba(255, 255, 255, 0.5);
     background: transparent;
     border: none;
     background: rgba(0, 0, 0, 0.2);
     box-shadow: none;
   }
-  #footer #btn-submit {
+#footer .contact-form .form-group textarea {
+    color: rgba(255, 255, 255, 0.5);
+    background: transparent;
+    border: none;
+    background: rgba(0, 0, 0, 0.2);
+    box-shadow: none;
+  }
+#footer #btn-submit {
     color: rgba(255, 255, 255, 0.9) !important;
-    background: #FA7E0A !important;
+    background: #FFCC00  !important;
   }
-  #footer .copy-right {
-    border-top: 1px solid rgba(255, 255, 255, 0.1);
-    padding-top: 5em;
-    margin-top: 5em;
-  }
-  #footer .copy-right p {
-    color: rgba(255, 255, 255, 0.3);
-    font-size: 16px;
-  }
-  #footer .copy-right p a {
-    color: rgba(255, 255, 255, 0.5);
-  }
-  
-  .js .animate-box {
-    opacity: 0;
-  }
-  
-  #fh5co-wrapper {
+.fh5co-social-icons a:hover{
+    color: #FFCC00 !important;
+}
+#fh5co-wrapper {
     overflow-x: hidden;
     position: relative;
   }
   
-  .fh5co-offcanvas {
+.fh5co-offcanvas {
     overflow: hidden;
   }
-  .fh5co-offcanvas #fh5co-wrapper {
+.fh5co-offcanvas #fh5co-wrapper {
     overflow: hidden !important;
   }
   
-  #fh5co-page {
+#fh5co-page {
     position: relative;
     -webkit-transition: 0.5s;
     -o-transition: 0.5s;
     transition: 0.5s;
   }
-  .fh5co-offcanvas #fh5co-page {
+.fh5co-offcanvas #fh5co-page {
     -moz-transform: translateX(-240px);
     -webkit-transform: translateX(-240px);
     -ms-transform: translateX(-240px);
@@ -170,15 +171,12 @@ p, ul, ol {
     transform: translateX(-240px);
   }
 
-  #footer .copy-right {
+#footer .copy-right {
     border-top: 1px solid rgba(255, 255, 255, 0.1);
-    padding-top: 5em;
-    margin-top: 5em;
+    padding-top: 2em;
+    margin-top: 3em;
 }
-.row {
-    margin-left: -15px;
-    margin-right: -15px;
-}
+
 #footer .copy-right p {
     color: rgba(255, 255, 255, 0.3);
     font-size: 16px;
@@ -188,7 +186,9 @@ p, ul, ol {
 }
 .fh5co-social-icons > a {
     padding: 4px 10px;
-    color: #FA7E0A;
+}
+.fh5co-social-icons > a i {
+    font-size: 26px;
 }
 #footer .section-title {
     color: rgba(255, 255, 255, 0.8);
@@ -196,26 +196,5 @@ p, ul, ol {
     font-size: 18px;
     letter-spacing: 1px;
 }
-#footer .copy-right p a {
-    color: rgba(255, 255, 255, 0.5);
-}
-.fh5co-social-icons > a {
-    padding: 4px 10px;
-    color: #FA7E0A;
-}
-a {
-    color: #FA7E0A;
-    -webkit-transition: 0.5s;
-    -o-transition: 0.5s;
-    transition: 0.5s;
-}
-a {
-    color: #337ab7;
-    text-decoration: none;
-}
-a {
-    background-color: transparent;
-}
-.fh5co-social-icons > a i {
-    font-size: 26px;
-}
+
+
