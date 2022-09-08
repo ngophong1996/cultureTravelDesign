@@ -1,3 +1,126 @@
+body {
+  font-family: "Roboto", Arial, serif;
+  line-height: 1.8;
+  font-size: 16px;
+  background: #fff;
+  color: #ffffff !important;
+  font-weight: 300;
+  overflow-x: hidden;
+}
+.form-group {
+  margin-bottom: 15px;
+}
+.row {
+  margin-left: -15px;
+  margin-right: -15px;
+}
+a {
+  color: #FFCC00 ;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+  text-decoration: none;
+  background-color: transparent;
+}
+h1, h2, h3, h4, h5, h6 {
+color: #ffffff;
+font-family: "Roboto Slab", Arial, sans-serif;
+font-weight: 400;
+}
+p, ul, ol {
+  color: #fff;
+  margin-bottom: 1.5em;
+  font-size: 18px;
+  font-family: "Roboto", Arial, serif;
+}
+.yellowInRight{
+  border-right: 3px solid yellow;
+  padding-right: 23px;
+  margin-right: 23px;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#nav-bar{
+
+  top: 0;
+  z-index: 10;
+}
+.navbar-brand img{
+  height: 40px;
+  padding-left: 30px;
+}
+.navbar-nav li{
+  padding: 0 10px;
+}
+.navbar-nav li a{
+ 
+}
+#nav-bar ul .nav-item a:hover
+{
+  color: #5faa41!important;
+}
+.navbar{
+  background: #0F0F0F;
+  height: 100px;
+}
+.navbar-toggler{
+  border: none!important;
+}
+.nav-link{
+  color: #555!important;
+  font-weight: 600;
+  font-size: 16px;
+}
+/*---------------------*/
+.slider{
+  background: url('353350.jpg') rgba(64, 64, 64, 0.65);
+  background-size: cover;
+  
+  height: 52vh;
+  background-blend-mode: multiply;
+}
+.slider_center{
+  height: 100%;
+}
+/*-------------------------*/
+.map_inner{
+  height: 75vh;
+}
+code {
+	display: inline-block;
+	padding: 0 .375em .125em;
+	border-radius: 5px;
+	background: #ccc;
+	font: 900 1.125em/1.25 consolas, monaco, monospace
+}
+
+[d] {
+	fill: #333;
+	transition: .7s;
+	cursor: pointer
+}
+[d]:hover { fill: #f90 }
+path .content {
+  position: absolute;
+  bottom: 55px;
+  width: 400px;
+  background: #fff;
+  padding: 20px;
+  box-sizing: border-box;
+  border-radius: 4px;
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.5s;
+}
+path:hover .content{
+  visibility: visible;
+  opacity: 1;
+}
+
+
 /*-------famousArea---------*/
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,500,800);
 figure.snip1084 {
@@ -140,42 +263,8 @@ figure.snip1084.hover:after {
 } */
 
 /*-------------*/
-body {
-    font-family: "Roboto", Arial, serif;
-    line-height: 1.8;
-    font-size: 16px;
-    background: #fff;
-    color: #848484;
-    font-weight: 300;
-    overflow-x: hidden;
-}
-.form-group {
-    margin-bottom: 15px;
-}
-.row {
-    margin-left: -15px;
-    margin-right: -15px;
-}
-a {
-    color: #FFCC00 ;
-    -webkit-transition: 0.5s;
-    -o-transition: 0.5s;
-    transition: 0.5s;
-    text-decoration: none;
-    background-color: transparent;
-}
-h1, h2, h3, h4, h5, h6 {
-	color: #212121;
-	font-family: "Roboto Slab", Arial, sans-serif;
-	font-weight: 400;
-	margin: 0 0 30px 0 !important;
-}
-p, ul, ol {
-    margin-bottom: 1.5em;
-    font-size: 18px;
-    color: #848484;
-    font-family: "Roboto", Arial, serif;
-}
+
+
 /*-------footer-----*/
 #footer {
     width: 100%;
@@ -223,6 +312,12 @@ p, ul, ol {
     position: relative;
     padding-left: 40px;
   }
+#footer h1, h2, h3, h4, h5, h6 {
+  color: #212121;
+  font-family: "Roboto Slab", Arial, sans-serif;
+  font-weight: 400;
+  margin: 0 0 30px 0 !important;
+}
 #footer .contact-info li i {
     position: absolute;
     top: 5px;
