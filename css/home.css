@@ -131,7 +131,11 @@ body {
   white-space: nowrap;
   -webkit-overflow-scrolling: touch;
 }
-
-button .btn{
-  margin-right: 5px;;
+.text-end{
+  display: flex;
+  margin-left: 10px;
+  justify-content: center;
+}
+#slidebar1{
+  background-image: url(https://i.pinimg.com/236x/b7/82/60/b78260706398bda4058483d715f902b6.jpghttps://media.istockphoto.com/photos/travel-woman-choosing-lanterns-in-hoi-an-vietnam-picture-id1167119719?k=20&m=1167119719&s=612x612&w=0&h=82cJJ6oghrb7c6Gonnk0JKf6aFcEZuymoWiFecIeV-c=);
 }
